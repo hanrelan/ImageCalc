@@ -1,0 +1,34 @@
+{
+  "name": "vite-viewer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "tsc && vite build && fly deploy"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.5",
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.10.2",
+    "jotai": "^1.8.6",
+    "jotai-valtio": "^0.1.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-markdown": "^8.0.4",
+    "valtio": "^1.7.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "organize-imports-cli": "^0.10.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  }
+}
